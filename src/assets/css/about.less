@@ -1,0 +1,72 @@
+body {
+  background:#f5f5f5 !important;
+}
+
+/*关于我们=>内容主体*/
+.about_content {
+  width:1364px;
+  border:1px solid #f5f5f5;
+  margin:65px auto 350px;
+  .bread {
+    margin:40px 0 80px 0;
+  }
+  .about_bottom {
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    .bottom_left {
+      width:240px;
+      h1 {
+        margin-bottom:20px;
+        height:60px;
+        color:#464646;
+        font-size:18px;
+        font-weight: bold;
+        line-height: 60px;
+        border-bottom:1px solid #dcdcdc;
+        i {
+          font-size:18px;
+          font-weight: bold;
+          margin:0 15px 0 3px;
+        }
+      }
+    }
+    .bottom_right {
+      width:1000px;
+      min-height:500px;
+      background:#fff;
+      //右边嵌套路由
+      .right_content {
+        width:880px;
+        margin:80px auto;
+      }
+    }
+  }
+}
+/*覆盖样式*/
+.ivu-menu-dark.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu), .ivu-menu-dark.ivu-menu-vertical .ivu-menu-submenu-title-active:not(.ivu-menu-submenu) {
+  border-right:none !important;
+}
+/*覆盖悬停样式*/
+.ivu-menu-dark.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu), .ivu-menu-dark.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu):hover, .ivu-menu-dark.ivu-menu-vertical .ivu-menu-submenu-title-active:not(.ivu-menu-submenu), .ivu-menu-dark.ivu-menu-vertical .ivu-menu-submenu-title-active:not(.ivu-menu-submenu):hover {
+  background:#ebebeb !important;
+  color:#505050 !important;
+}
+/*覆盖悬停样式*/
+.left_menu {
+  /*覆盖选中文字样式*/
+  .ivu-menu-item-selected {
+    color:#636363 !important;
+  }
+  li {
+    margin:10px 0;
+    &:hover {
+      background:#ebebeb !important;
+    }
+  }
+}
+/*覆盖菜单样式*/
+
+.menu_item {color:#505050 !important;}
+/*覆盖菜单背景样式*/
+.ivu-menu-dark {background:#f5f5f5 !important;}
